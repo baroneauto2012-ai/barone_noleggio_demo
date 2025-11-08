@@ -1,0 +1,5 @@
+{
+  "builds": [{ "src": "src/App.js", "use": "@vercel/static-build" }],
+  "framework": "create-react-app",
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
+}

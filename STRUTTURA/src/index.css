@@ -1,0 +1,80 @@
+/* Stile generale pagina */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8fafc; /* grigio chiaro */
+  color: #1e293b; /* testo grigio scuro */
+}
+
+/* Titoli principali */
+h1, h2, h3 {
+  color: #1e3a8a; /* blu Gruppo Barone */
+  margin-top: 0;
+}
+
+/* Link */
+a {
+  color: #ca8a04; /* oro Gruppo Barone */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Pulsanti */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  background-color: #1e3a8a; /* blu */
+  color: white;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #0f1e57;
+}
+
+/* Layout principale */
+div {
+  box-sizing: border-box;
+}
+
+/* Tabella */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f5f9;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  font-size: 12px;
+  color: #475569;
+  padding-top: 8px;
+}
+
+/* Effetto logo trasparente in basso */
+.logo-watermark {
+  opacity: 0.1;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: #1e3a8a;
+  font-weight: bold;
+}
